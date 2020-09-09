@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/*...............................................................font/margin/text*/
+
+h2 {
+    padding-top: 20px;
+    height: 60px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;    
+}
+
+
+/*..................................................................Header section*/
+
+.navbar{
+   height: 80px;
+    
+}
+
+.navbar-brand{
+    margin-left: 20px;
+}
+
+nav div ul{
+    margin-left: 20px;
+    justify-content: start;
+}
+
+nav div ul li{
+    margin-left: 15px;               
+}
+
+nav div ul li a{
+    color: #fafafa !important;               
+}
+nav div ul li a:hover{
+    color: #ccc6c6 !important;               
+}
+
+.navbar-toggler {
+    border-color: white !important;
+}
+
+.hero{
+    height: 600px;
+    background: url("../images/mainpage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width: 1200px){
+    .hero{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    .hero{
+        height: 300px;
+    }
+}
+
+/*..................................................................Reasons why section*/
+
+hr {
+    border-bottom: 2px solid black;
+    margin: 0 auto;
+    width: 20%;
+    margin-bottom: 15px;  
+    
+}
