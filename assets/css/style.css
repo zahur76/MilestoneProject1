@@ -19,9 +19,8 @@ h2 {
 p {
     font-family: "lato", sans-serif;
     font-weight: 500;
-    height: 25px;
+    font-size: 15px;
     padding: 10px;
-
 }
 
 /*..................................................................Header section*/
@@ -51,7 +50,7 @@ nav div ul li a:hover{
     color: #ccc6c6 !important;               
 }
 
-.navbar-toggler {
+.navbar-toggler{
     border-color: white !important;
 }
 
@@ -92,19 +91,76 @@ hr {
 
 .reasons{
     padding: 20px !important;
+    text-align: center;
 }
 
-.reasons-image img {
+.reasons-image img{
     width: 100%; 
     height:250px; 
     object-fit: cover;    
 }
 
-.reason-text {
+.reason-text{
     height: 150px;    
 }
 
-.reason-text h2 {
+.reason-text h2{
     color: #367c86;
 }
 
+/*....................................................customising bootstrap buttom*/
+
+.badge{    
+    font-size: 30px;
+    margin-top: 20px; 
+    background-color:  #367c86;      
+}
+
+.badge:hover{        
+    color:  rgb(92, 137, 160) !important;     
+}
+
+
+/*..................................................................footer section*/
+
+.footer-links, .footer-download{
+    background-color: #367c86; 
+    min-height: 80px; 
+     
+}
+
+
+.footer-links ul li a{    
+    line-height: 80px;
+    font-size: 40px; 
+    color: rgb(253, 255, 255);     
+    padding: 5px;
+    margin-left: 10px;
+    
+ }
+
+.footer-links ul li a:hover{
+    background-color: rgb(92, 137, 160);
+    border-radius: 50%;    
+}
+
+.footer-links ul, .footer-download p{
+    margin-bottom: 0 !important;
+}
+
+.footer-download{
+    color: #fafafa;
+    line-height: 50px;    
+}
+
+
+.footer-download p a i{
+    font-size: 30px;
+    color: rgb(253, 255, 255);     
+    padding: 10px;    
+}
+
+.footer-download p a i:hover{
+    background-color: rgb(92, 137, 160);
+    border-radius: 50%; 
+}
