@@ -16,6 +16,13 @@ h2 {
     font-weight: 500;    
 }
 
+p {
+    font-family: "lato", sans-serif;
+    font-weight: 500;
+    height: 25px;
+    padding: 10px;
+
+}
 
 /*..................................................................Header section*/
 
@@ -56,18 +63,22 @@ nav div ul li a:hover{
     background-position: center;
 }
 
-@media screen and (min-width: 1200px){
+/*@media screen and (min-width: 1200px){
     .hero{
         width: 90%;
         margin: 0 auto;
     }
-}
+}*/
 
 
 @media screen and (max-width: 576px){
     .hero{
         height: 300px;
     }
+    .navbar-toggler {
+    border-color: rgb(255, 255, 255) !important;
+}
+
 }
 
 /*..................................................................Reasons why section*/
@@ -76,6 +87,24 @@ hr {
     border-bottom: 2px solid black;
     margin: 0 auto;
     width: 20%;
-    margin-bottom: 15px;  
-    
+    margin-bottom: 15px;      
 }
+
+.reasons{
+    padding: 20px !important;
+}
+
+.reasons-image img {
+    width: 100%; 
+    height:250px; 
+    object-fit: cover;    
+}
+
+.reason-text {
+    height: 150px;    
+}
+
+.reason-text h2 {
+    color: #367c86;
+}
+
