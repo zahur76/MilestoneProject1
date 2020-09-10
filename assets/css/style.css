@@ -16,11 +16,15 @@ h2 {
     font-weight: 500;    
 }
 
+h5 {         
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;    
+}
+
 p {
     font-family: "lato", sans-serif;
     font-weight: 500;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 15px;    
 }
 
 /*..................................................................Header section*/
@@ -117,50 +121,46 @@ hr {
 }
 
 .badge:hover{        
-    color:  rgb(92, 137, 160) !important;     
+    color:  #ccc6c6 !important;     
 }
 
 
 /*..................................................................footer section*/
 
-.footer-links, .footer-download{
-    background-color: #367c86; 
-    min-height: 80px; 
-     
-}
-
-
-.footer-links ul li a{    
-    line-height: 80px;
-    font-size: 40px; 
-    color: rgb(253, 255, 255);     
-    padding: 5px;
-    margin-left: 10px;
-    
- }
-
-.footer-links ul li a:hover{
-    background-color: rgb(92, 137, 160);
-    border-radius: 50%;    
-}
-
-.footer-links ul, .footer-download p{
-    margin-bottom: 0 !important;
-}
-
-.footer-download{
+footer{
+    background-color: #367c86;
+    min-height: 80px;
+    text-align: center;
     color: #fafafa;
-    line-height: 50px;    
 }
 
-
-.footer-download p a i{
-    font-size: 30px;
-    color: rgb(253, 255, 255);     
-    padding: 10px;    
+.footer-download i{
+    font-size: 25px;
+    color: #ccc6c6;;
+    padding: 5px;
+    border-radius: 50%;
 }
 
-.footer-download p a i:hover{
-    background-color: rgb(92, 137, 160);
-    border-radius: 50%; 
+.footer-download i:hover{  
+    background: #ccc6c6;    
+    color: rgb(92,137,160);    
 }
+
+.footer-links i{
+    
+    font-size: 40px;
+    color: #ccc6c6;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.footer-links i:hover{  
+    background: #ccc6c6;    
+    color: rgb(92,137,160);    
+}
+
+.footer-links ul{
+    line-height: 120px;
+    margin-bottom: 0px !important;
+}
+
