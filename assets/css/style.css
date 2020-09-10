@@ -78,10 +78,12 @@ nav div ul li a:hover{
     .hero{
         height: 300px;
     }
+    .hero2{
+        height: 300px !important;
+    }
     .navbar-toggler {
     border-color: rgb(255, 255, 255) !important;
-}
-
+    }
 }
 
 /*..................................................................Reasons why section*/
@@ -164,3 +166,28 @@ footer{
     margin-bottom: 0px !important;
 }
 
+/*..................................................................experience section*/
+
+.hero2{
+    height: 600px;
+    background: url("../images/hero2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card img{
+    position: relative;
+}
+
+.card-title{
+    padding: 7px;
+    background-color: rgba(218, 164, 93, 0.5);
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 1px solid #fafafa;
+    border-radius: 10px;
+}
