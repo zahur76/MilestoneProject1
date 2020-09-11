@@ -18,7 +18,7 @@ h2 {
 
 h5 {         
     font-family: "Roboto", sans-serif;
-    font-weight: 400;    
+    font-weight: 400;   
 }
 
 p {
@@ -30,13 +30,15 @@ p {
 /*--------------------------------------------------------------Header section*/
 
 .navbar{
-   height: 80px;
-    
+   z-index: 1;
+   height: 80px;   
 }
 
+
 .navbar-brand{
-    margin-left: 20px;
+    margin-left: 15px;
 }
+
 
 nav div ul{
     margin-left: 20px;
@@ -44,17 +46,19 @@ nav div ul{
 }
 
 nav div ul li{
-    margin-left: 15px;               
+    margin-left: 15px;                  
 }
 
 nav div ul li a{
-    color: #fafafa !important;               
+    color: #ffffff !important;                   
 }
+
 nav div ul li a:hover{
     color: #ccc6c6 !important;               
 }
 
 .navbar-toggler{
+    border: 2px solid #ffffff;
     border-color: white !important;
 }
 
@@ -80,12 +84,18 @@ nav div ul li a:hover{
     }
     .hero2{
         height: 300px !important;
-    }   
-     .description{
-        margin-top: 200px !important;
-    }
+    } 
+    .center-form{
+    width: 90% !important;
+    }    
+}  
+     
+@media screen and (max-width: 768px){
+   .navbar-collapse{
+       background-color:rgba(0,0,0,0.9);
+   } 
+    
 }
-
 /*.----------------------------------------------------------Reasons why section*/
 
 hr {
@@ -196,7 +206,8 @@ footer{
 
 /*------code for linear gradient taken from GeeksforGeeks to darken background for readability*/
 
-.bg-mauritius{    
+.bg-mauritius{       
+    min-height: 600px;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url("../images/mainpage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -207,4 +218,17 @@ footer{
 .mauritius-description{
     color: #ffffff;
 }
+/*------------------------------------------------------Contact us section*/
 
+.bg-colour-contact{
+    background: #f3efef;
+}
+
+.center-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.center-form h2{
+    text-transform: uppercase;
+}

@@ -8,10 +8,10 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <title>Visit Mauritius</title>
 </head>
-<body>
+<body class="bg-mauritius">
 <!---------------------------------Header section with hero image--------------->
 
-    <header class="hero">
+    <header>
 <!---------------------------------Customised bootsrap navbar------------------->
 
         <nav class="navbar navbar-expand-md navbar-dark">
@@ -40,53 +40,28 @@
         </nav>
     </header>
 
-    <!---------------------------------Reason why to visit section------------------->
+    <!---------------------------------Form section using bootrap------------------->
 
-    <section>
-        <h2 class="mt-3">Why Visit Us?</h2>
-        <hr>
-        <div class="row mt-3 no-gutters">
-            <div class="col-md-4 shadow-lg reasons">
-                <div class="row no-gutters reasons-image">
-                    <div class="col-12">
-                        <img src="assets/images/climate.jpg"  alt="aerial view mauritius">
+    <section class="container-fluid">
+        <div class="row mt-5 mb-5 bg-colour-contact center-form">
+            <div class="col">
+                <h2>Contact us</h2>
+                <p>Please drop us a line if you have any query</p>
+                <form>
+                    <div class="form-group">                        
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required>
                     </div>
-                </div>
-                <div class="row no-gutters reason-text">
-                    <div class="col-12">
-                        <h2>CLIMATE</h2>
-                        <p>Subtropical climate creating a paradise island filled with natural scenery with beautiful weather through-out the whole year</p>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" id="emailaddress" placeholder="Email" required>                       
                     </div>
-                </div>              
+                    <div class="form-group">                        
+                        <textarea name="query" class="form-control" id="query" rows="8" placeholder="Enter your query here" required></textarea>
+                    </div>                    
+                    <button type="submit" class="btn mb-3 btn-primary" >Submit query</button>
+                </form>
             </div>
-            <div class="col-md-4 shadow-lg reasons">
-                <div class="row no-gutters reasons-image">
-                    <div class="col-12">
-                        <img src="assets/images/multi.jpg"  alt="different coloured hands">
-                    </div>
-                </div>
-                <div class="row no-gutters reason-text">
-                    <div class="col-12">
-                        <h2>MULTICULTURALISM</h2>
-                        <p>Mauritius has a sparkling culture unique to this planet originating from the blend of different ethnical origins</p>
-                    </div>
-                </div>              
-            </div>
-            <div class="col-md-4 shadow-lg reasons">
-                <div class="row no-gutters reasons-image">
-                    <div class="col-12">
-                        <img src="assets/images/eco-nature.jpg"  alt="natural scenery">
-                    </div>
-                </div>
-                <div class="row no-gutters reason-text">
-                    <div class="col-12">
-                        <h2>ECO TOURISM</h2>
-                        <p>Mauritius promotes green tourism. Come and discover the Island differently and explore the beauty of its nature</p>
-                    </div>
-                </div>              
-            </div> 
-            <div class="mt-3 mb-5 col-12 d-flex justify-content-center discover"><a href="experiences.html" class="badge badge-info">Discover more here</a></div>         
-        </div>            
+        </div>
+                   
     </section>
     <!---------------------------------Footer section---------------------------->
     <footer>
