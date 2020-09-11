@@ -8,13 +8,12 @@
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <title>Visit Mauritius</title>
 </head>
-<body>
+<body class="bg-mauritius">
 <!---------------------------------Header section with hero image--------------->
 
-    <header class="hero">
+    <header>
 <!---------------------------------Customised bootsrap navbar------------------->
-
-        <nav class="navbar navbar-expand-md navbar-light">
+        <nav class="navbar navbar-expand-md navbar-dark">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo.png"  width="250" height="100" alt="logo visit mauritius" loading="lazy">
             </a>
@@ -40,53 +39,33 @@
         </nav>
     </header>
 
-    <!---------------------------------Reason why to visit section------------------->
-
+    <!---------------------------------Description of Mauriitus------------------->
     <section>
-        <h2 class="mt-3">Why Visit Us?</h2>
-        <hr>
-        <div class="row mt-3 no-gutters">
-            <div class="col-md-4 shadow-lg reasons">
-                <div class="row no-gutters reasons-image">
-                    <div class="col-12">
-                        <img src="assets/images/climate.jpg"  alt="aerial view mauritius">
-                    </div>
-                </div>
-                <div class="row no-gutters reason-text">
-                    <div class="col-12">
-                        <h2>CLIMATE</h2>
-                        <p>Subtropical climate creating a paradise island filled with natural scenery with beautiful weather through-out the whole year</p>
-                    </div>
-                </div>              
+        <div class="row description mt-3 no-gutters">
+            <div class="col-lg-3 p-3 d-flex justify-content-center">
+                <img src="assets/images/flag.png" alt="Mauritian flag" height="200px">
             </div>
-            <div class="col-md-4 shadow-lg reasons">
-                <div class="row no-gutters reasons-image">
-                    <div class="col-12">
-                        <img src="assets/images/multi.jpg"  alt="different coloured hands">
-                    </div>
-                </div>
-                <div class="row no-gutters reason-text">
-                    <div class="col-12">
-                        <h2>MULTICULTURALISM</h2>
-                        <p>Mauritius has a sparkling culture unique to this planet originating from the blend of different ethnical origins</p>
-                    </div>
-                </div>              
+            <div class="mauritius-description col-lg-9 p-3">
+                <p>Mauritius , officially the Republic of Mauritius, is an island nation in the Indian Ocean about 2,000 kilometres (1,200 mi) off the south-east coast of the African continent. 
+                    It includes the eponymous main island of Mauritius and Rodrigues, Agaléga and St. Brandon.  The capital and largest city, Port Louis, is located on Mauritius, where most of 
+                    the population is concentrated.<br>The country spans 2,040 square kilometres (790 sq mi) and has an Exclusive Economic Zone covering 2.3 million square kilometres.<br>
+                    Mauritius is sitiuted off the southeast coast of Africa, between latitudes 19°58.8'S and 20°31.7'S and longitudes 57°18.0'E and 57°46.5'E. It is 65 km (40 mi) 
+                    long and 45 km (30 mi) wide. Its land area is 1,864.8 km2 (720.0 sq mi).<br>The island is surrounded by more than 150 km (100 mi) of white sandy beaches, 
+                    and the lagoons are protected from the open sea by the world's third-largest coral reef, which surrounds the island. Just off the Mauritian coast lie some 49 
+                    uninhabited islands and islets, several of which have been declared natural reserves for endangered species.<br>
+                    The Mauritius Island is relatively young geologically, having been created by volcanic activity some 8 million years ago. Together with Saint Brandon, Réunion, 
+                    and Rodrigues, the island is part of the Mascarene Islands. These islands emerged as a result of gigantic underwater volcanic eruptions that happened thousands
+ 		            of kilometres to the east of the continental block made up of Africa and Madagascar.[66] They are no longer volcanically active and the hotspot now rests under 
+		            Réunion Island. Mauritius is encircled by a broken ring of mountain ranges, varying in height from 300–800 m (1,000–2,600 ft) above sea level. The land rises from coastal plains 
+		            to a central plateau where it reaches a height of 670 m (2,200 ft); the highest peak is in the south-west, Piton de la Petite Rivière Noire at 828 metres (2,717 ft). Streams and 
+		            rivers speckle the island, many formed in the cracks created by lava flows.<br>
+                    The estimated population of the Republic of Mauritius was at 1,265,985, of whom 626,341 were males and 639,644 females as at 1 July 2019. The population on the island of Mauritius
+                    was 1,222,340, and that of Rodrigues island was 43,371; Agalega and Saint Brandon had an estimated total population of 274. Mauritius has the second highest population density 
+                    in Africa.Mauritius is a multiethnic society, drawn from Indian, African, Chinese and European (mostly French) origin. According to the 2011 census conducted by Statistics Mauritius,
+                    48.5% of the Mauritian population follows Hinduism, followed by Christianity (32.7%), Islam (17.2%) and other religions (0.7%). 
+                </p>
             </div>
-            <div class="col-md-4 shadow-lg reasons">
-                <div class="row no-gutters reasons-image">
-                    <div class="col-12">
-                        <img src="assets/images/eco-nature.jpg"  alt="natural scenery">
-                    </div>
-                </div>
-                <div class="row no-gutters reason-text">
-                    <div class="col-12">
-                        <h2>ECO TOURISM</h2>
-                        <p>Mauritius promotes green tourism. Come and discover the Island differently and explore the beauty of its nature</p>
-                    </div>
-                </div>              
-            </div> 
-            <div class="mt-3 mb-5 col-12 d-flex justify-content-center discover"><a href="experiences.html" class="badge badge-info">Discover more here</a></div>         
-        </div>            
+        </div>     
     </section>
     <!---------------------------------Footer section---------------------------->
     <footer>
@@ -108,5 +87,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
 </body>
 </html>

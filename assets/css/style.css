@@ -6,7 +6,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-/*...............................................................font/margin/text*/
+/*----------------------------------------------------------font/margin/text*/
 
 h2 {
     padding-top: 20px;
@@ -18,7 +18,7 @@ h2 {
 
 h5 {         
     font-family: "Roboto", sans-serif;
-    font-weight: 300;    
+    font-weight: 400;    
 }
 
 p {
@@ -27,7 +27,7 @@ p {
     font-size: 15px;    
 }
 
-/*..................................................................Header section*/
+/*--------------------------------------------------------------Header section*/
 
 .navbar{
    height: 80px;
@@ -80,13 +80,13 @@ nav div ul li a:hover{
     }
     .hero2{
         height: 300px !important;
-    }
-    .navbar-toggler {
-    border-color: rgb(255, 255, 255) !important;
+    }   
+     .description{
+        margin-top: 200px !important;
     }
 }
 
-/*..................................................................Reasons why section*/
+/*.----------------------------------------------------------Reasons why section*/
 
 hr {
     border-bottom: 2px solid black;
@@ -114,7 +114,7 @@ hr {
     color: #367c86;
 }
 
-/*....................................................customising bootstrap buttom*/
+/*------------------------------------------------customising bootstrap buttom*/
 
 .badge{    
     font-size: 30px;
@@ -127,38 +127,38 @@ hr {
 }
 
 
-/*..................................................................footer section*/
+/*---------------------------------------------------------------footer section*/
 
 footer{
-    background-color: #367c86;
+    background: url(../images/sand.jpg);
     min-height: 80px;
     text-align: center;
-    color: #fafafa;
+    color: #000000;
 }
 
 .footer-download i{
     font-size: 25px;
-    color: #ccc6c6;;
+    color: #5f5e57;
     padding: 5px;
     border-radius: 50%;
 }
 
 .footer-download i:hover{  
-    background: #ccc6c6;    
-    color: rgb(92,137,160);    
+    background: #5f5e57;    
+    color: rgb(245, 222, 187);    
 }
 
 .footer-links i{
     
     font-size: 40px;
-    color: #ccc6c6;
+    color: #5f5e57;
     padding: 5px;
     border-radius: 50%;
 }
 
 .footer-links i:hover{  
-    background: #ccc6c6;    
-    color: rgb(92,137,160);    
+    background: #5f5e57;    
+    color: rgb(245, 222, 187);    
 }
 
 .footer-links ul{
@@ -166,7 +166,7 @@ footer{
     margin-bottom: 0px !important;
 }
 
-/*..................................................................experience section*/
+/*.---------------------------------------------------------experience section*/
 
 .hero2{
     height: 600px;
@@ -191,3 +191,20 @@ footer{
     border: 1px solid #fafafa;
     border-radius: 10px;
 }
+
+/*------------------------------------------------------About Mauritius section*/
+
+/*------code for linear gradient taken from GeeksforGeeks to darken background for readability*/
+
+.bg-mauritius{    
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url("../images/mainpage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.mauritius-description{
+    color: #ffffff;
+}
+
