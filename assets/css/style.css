@@ -8,12 +8,16 @@
 
 /*----------------------------------------------------------font/margin/text*/
 
+
 h2 {
     padding-top: 20px;
     height: 60px;
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 500;    
+}
+h3{
+    color: #fafafa;
 }
 
 h5 {         
@@ -208,17 +212,21 @@ footer{
 
 .bg-mauritius{       
     min-height: 600px;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),url("../images/mainpage.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/mainpage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
 }
 
-.mauritius-description{
+.mauritius-description p{
     color: #ffffff;
-}
+    font-size: 16px;
+    font-weight: 300;
+    
+} 
 /*------------------------------------------------------Contact us section*/
+
 
 .bg-colour-contact{
     background: #f3efef;
