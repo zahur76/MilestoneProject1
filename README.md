@@ -17,7 +17,9 @@ destinations.
 
 * The user should be exposed to other aspects of tourism besides beaches.
 
-* The user should be able to easily identify whether Mauritius would meet their travel reqiurements. 
+* The user should be able to easily identify whether Mauritius would meet their travel reqiurements.
+
+* The user should be able to find detail about how to plan their trip.
 
 The site layout was contructed using wireframe. Find the link [here](assets/doc/wireframe.pdf)
 
@@ -75,13 +77,14 @@ The site layout has been designed to meet the website initial goals. Several ima
 
 The layout design was such that the user would iniially see 3 main reasons to visit Mauritius on the main page with the intention 
 of further wanting to explore the site.
-![Image of reasons](assets/doc/snapshot1.png)
+![Image of reasons](assets/doc/mainpage.jpg)
 
 The experiences page provided an easy and visual means to:
-* showcase a variety activities that are on offer.
+* showcase a variety activities that are on offer using both pictures and video.
 * see if Mauritius suited their travel requirements.
+* provide a link on how to plan their trip.
 
-![Image of reasons](assets/doc/activities.png)
+![Image of reasons](assets/doc/experience-page.jpg)
 
 During testing it was noticed that on the Mauritius page the contrast between background image and text caused reading issues.
 This was resolved by darking the background image.
@@ -115,11 +118,14 @@ The Github page was deployed from the master branch.
 ## **CREDITS**
 
 ### *Content*
-* The Mauritius history page description was taken from wikipedia.
+* The Mauritius history page description was taken from [wikipedia](https://en.wikipedia.org/wiki/Mauritius)
 * The video used was from the official government youtube channel.
+
 ### *Media*
 *	Photos were obtained from unsplash.com
 *   logo design "Visit Mauritius" was obtained from textgiraffe.com
 ### *Acknowledgements*
-*	I received inspiration for this project from Shabana Meerun
+* W3schools.com for reusing existing code referenced in css.
+* geeksforgeeks.org for reusing existing code referenced in css.
+* I received inspiration for this project from Shbana Meerun
 

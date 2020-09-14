@@ -9,7 +9,6 @@
 
 /*----------------------------------------------------------font/margin/text*/
 
-
 h2 {
     
     height: 60px;
@@ -86,8 +85,8 @@ nav div ul li a:hover{
 /*.----------------------------------------------------------Reasons why section*/
 
 .reasons h2{
-    height: 30;
-    margin-bottom: 0;
+    height: 30px;
+    margin-bottom: 0px;
 }
 
 #why-visit{
@@ -100,9 +99,12 @@ hr {
     width: 20%;          
 }
 
-.card-body-reasons{
+.card-body-reasons{    
     padding: 20px;
     min-height: 180px;
+}
+.card-text{
+    padding-top: 20px;
 }
 
 /*------------------------------------------------customising bootstrap buttom*/
@@ -139,7 +141,7 @@ footer{
 }
 
 .footer-copyright{
-    font-size: 6px;    
+    font-size: 6px;     
 }
 
 .footer-download i{
@@ -151,7 +153,7 @@ footer{
 
 .footer-download i:hover{  
     background: #5f5e57;    
-    color: rgb(245, 222, 187);    
+    color: rgb(245, 222, 187);        
 }
 
 
@@ -165,10 +167,27 @@ footer{
 
 .footer-links i:hover{  
     background: #5f5e57;    
-    color: rgb(245, 222, 187);    
+    color: rgb(245, 222, 187);
 }
 
+/*.--------------------------------tooltip coding obtained from W3schools.com*/
 
+.tooltiptext{
+    font-size: 17px;
+    font-weight: 300;
+    padding: 5px;
+    position: absolute;    
+    background-color:#5f5e57;
+    color: rgb(245, 222, 187); 
+    bottom: 45px; 
+    right: 20px; 
+    border-radius: 5px; 
+    visibility: hidden;             
+}
+
+.footer-download i:hover .tooltiptext{
+    visibility: visible;
+}
 
 /*.---------------------------------------------------------experience section*/
 
@@ -255,26 +274,3 @@ footer{
     
 }
 
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
