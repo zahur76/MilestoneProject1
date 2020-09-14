@@ -19,7 +19,7 @@ destinations.
 
 * The user should be able to easily identify whether Mauritius would meet their travel reqiurements. 
 
-The site layout was contructed using wireframe. Find the link [here](https://github.com/zahur76/MilestoneProject1/blob/master/wireframe.pdf)
+The site layout was contructed using wireframe. Find the link [here](assets/doc/wireframe.pdf)
 
 
 ## FEATURES
@@ -40,6 +40,8 @@ experiences page to further explore activities in more detail.
 This page has a layout of 9 main activities which can be done in Mauritius covering activities 
 for all demographics. Image and text description used for the activities.
 
+A short tourism video was embedded folowed by a link on how to plan your trip
+
 
 ### *Mauritius page*
 
@@ -57,8 +59,8 @@ In the future would like to add a weather widget to main hero image.
 
 ## Technologies Used
 
-* HTML language
-* css language
+* HTML 
+* css 
 * official W3C validator
 * css official validator (Jigsaw)
 * chrome dev tools
@@ -73,13 +75,13 @@ The site layout has been designed to meet the website initial goals. Several ima
 
 The layout design was such that the user would iniially see 3 main reasons to visit Mauritius on the main page with the intention 
 of further wanting to explore the site.
-![Image of reasons](assets/images/snapshot1.png)
+![Image of reasons](assets/doc/snapshot1.png)
 
 The experiences page provided an easy and visual means to:
 * showcase a variety activities that are on offer.
 * see if Mauritius suited their travel requirements.
 
-![Image of reasons](assets/images/activities.png)
+![Image of reasons](assets/doc/activities.png)
 
 During testing it was noticed that on the Mauritius page the contrast between background image and text caused reading issues.
 This was resolved by darking the background image.
@@ -95,18 +97,17 @@ of dropdrown menu on smaller devices.
 It was also noticed that contact form width was too small on smaller devices. This was modified using 
 @media screen to increase width to 90%.
 ### Links 
-All links tested on all pages.
-Social links and download links initially changed active page when clicked on. Issue resolved by adding style="_blank" attribute
-###The following validators were used to test for code errors:
+All links were verified for errors.
+Social links and download links initially changed active page when clicked on. Issue resolved by adding style="_blank" attribute.
+
+The following validators were used to test for code errors:
 * official W3C validator
 * css official validator (Jigsaw)
 
 
 ## **DEPLOYMENT**
 
-Gitpod was used used as online IDE and then pushed to GITHUB for hosting on the following link :
-
-[Link](https://zahur76.github.io/MilestoneProject1/)
+Gitpod was used used as online IDE and then pushed to GITHUB for [hosting](https://zahur76.github.io/MilestoneProject1/)
 
 The Github page was deployed from the master branch.
 
@@ -114,9 +115,11 @@ The Github page was deployed from the master branch.
 ## **CREDITS**
 
 ### *Content*
-* The Mauritius history page was taken from wikepedia.
+* The Mauritius history page description was taken from wikipedia.
+* The video used was from the official government youtube channel.
 ### *Media*
-*	Photos were obtained from unsplash.
-*   logo design "Visit Mauritius" was obatained from textgiraffe.com
+*	Photos were obtained from unsplash.com
+*   logo design "Visit Mauritius" was obtained from textgiraffe.com
 ### *Acknowledgements*
-•	I received inspiration for this project from X
+*	I received inspiration for this project from Shabana Meerun
+

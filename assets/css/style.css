@@ -4,17 +4,20 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
+    
 }
 
 /*----------------------------------------------------------font/margin/text*/
 
 
 h2 {
-    padding-top: 20px;
+    
     height: 60px;
     text-align: center;
     font-family: "Roboto", sans-serif;
-    font-weight: 500;    
+    font-weight: 500; 
+    color: #367c86; 
+    text-transform: uppercase;  
 }
 h3{
     color: #fafafa;
@@ -35,7 +38,7 @@ p {
 
 .navbar{
    z-index: 1;
-   height: 80px;   
+   height: 80px;     
 }
 
 
@@ -45,20 +48,25 @@ p {
 
 
 nav div ul{
-    margin-left: 20px;
-    justify-content: start;
+    margin-right: 20px;    
 }
 
 nav div ul li{
-    margin-left: 15px;                  
+    margin-left: 15px; 
+                    
 }
 
 nav div ul li a{
-    color: #ffffff !important;                   
+    color: #ffffff !important;                      
 }
+
 
 nav div ul li a:hover{
     color: #ccc6c6 !important;               
+}
+
+.active {
+    text-decoration: underline !important;
 }
 
 .navbar-toggler{
@@ -74,13 +82,159 @@ nav div ul li a:hover{
     background-position: center;
 }
 
-/*@media screen and (min-width: 1200px){
-    .hero{
-        width: 90%;
-        margin: 0 auto;
-    }
-}*/
 
+/*.----------------------------------------------------------Reasons why section*/
+
+.reasons h2{
+    height: 30;
+    margin-bottom: 0;
+}
+
+#why-visit{
+    height: 50px;       
+}
+
+hr {
+    border-bottom: 2px solid #5f5e57;
+    margin: 0 auto;
+    width: 20%;          
+}
+
+.card-body-reasons{
+    padding: 20px;
+    min-height: 180px;
+}
+
+/*------------------------------------------------customising bootstrap buttom*/
+
+.badge{    
+    font-size: 30px;
+    margin-top: 20px; 
+    background-color:  #367c86;        
+}
+
+
+.badge:hover{        
+    color:  #ccc6c6 !important;     
+}
+
+
+/*---------------------------------------------------------------footer section*/
+
+footer{    
+    background: url(../images/sand.jpg);    
+    text-align: center;
+    color: #5f5e57;                
+}
+
+.footer-download, .footer-links{
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;    
+    height: 60px;
+}
+
+.footer-download a, .footer-download h5{
+    display: inline-block;    
+}
+
+.footer-copyright{
+    font-size: 6px;    
+}
+
+.footer-download i{
+    font-size: 25px;
+    color: #5f5e57;
+    padding: 7px;
+    border-radius: 50%;     
+}
+
+.footer-download i:hover{  
+    background: #5f5e57;    
+    color: rgb(245, 222, 187);    
+}
+
+
+.footer-links i{    
+    font-size: 40px;
+    color: #5f5e57;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left:10px;
+}
+
+.footer-links i:hover{  
+    background: #5f5e57;    
+    color: rgb(245, 222, 187);    
+}
+
+
+
+/*.---------------------------------------------------------experience section*/
+
+.hero2{
+    height: 600px;
+    background: url("../images/hero2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-body{
+    min-height: 120px;
+}
+
+.card img{
+    position: relative;
+}
+
+.card-title{
+    padding: 7px;
+    background-color: rgba(219, 172, 111, 0.808);
+    position: absolute;
+    bottom: 120px;
+    left: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 1px solid #fafafa;
+    border-radius: 10px;
+}
+
+
+/*------------------------------------------------------About Mauritius section*/
+
+/*------code for linear gradient taken from GeeksforGeeks to darken background for readability*/
+
+.bg-mauritius{  
+    min-height: 700px;     
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/mainpage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+
+.mauritius-description p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;    
+} 
+
+/*------------------------------------------------------Contact us section*/
+
+
+.bg-colour-contact{
+    background: #f3efef;
+}
+
+.center-form{
+    width: 60%;
+    margin: 0 auto;
+}
+.submit-button{
+    color: #ffffff;
+    background-color: #367c86;
+}
+
+/*.----------------------------------------------------------Media screen section*/
 
 @media screen and (max-width: 576px){
     .hero{
@@ -100,143 +254,27 @@ nav div ul li a:hover{
    } 
     
 }
-/*.----------------------------------------------------------Reasons why section*/
 
-hr {
-    border-bottom: 2px solid black;
-    margin: 0 auto;
-    width: 20%;
-    margin-bottom: 15px;      
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
 }
 
-.reasons{
-    padding: 20px !important;
-    text-align: center;
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
 }
 
-.reasons-image img{
-    width: 100%; 
-    height:250px; 
-    object-fit: cover;    
-}
-
-.reason-text{
-    height: 150px;    
-}
-
-.reason-text h2{
-    color: #367c86;
-}
-
-/*------------------------------------------------customising bootstrap buttom*/
-
-.badge{    
-    font-size: 30px;
-    margin-top: 20px; 
-    background-color:  #367c86;      
-}
-
-.badge:hover{        
-    color:  #ccc6c6 !important;     
-}
-
-
-/*---------------------------------------------------------------footer section*/
-
-footer{
-    background: url(../images/sand.jpg);
-    min-height: 80px;
-    text-align: center;
-    color: #000000;
-}
-
-.footer-download i{
-    font-size: 25px;
-    color: #5f5e57;
-    padding: 5px;
-    border-radius: 50%;
-}
-
-.footer-download i:hover{  
-    background: #5f5e57;    
-    color: rgb(245, 222, 187);    
-}
-
-.footer-links i{
-    
-    font-size: 40px;
-    color: #5f5e57;
-    padding: 5px;
-    border-radius: 50%;
-}
-
-.footer-links i:hover{  
-    background: #5f5e57;    
-    color: rgb(245, 222, 187);    
-}
-
-.footer-links ul{
-    line-height: 120px;
-    margin-bottom: 0px !important;
-}
-
-/*.---------------------------------------------------------experience section*/
-
-.hero2{
-    height: 600px;
-    background: url("../images/hero2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.card img{
-    position: relative;
-}
-
-.card-title{
-    padding: 7px;
-    background-color: rgba(218, 164, 93, 0.5);
-    position: absolute;
-    bottom: 100px;
-    left: 10px;
-    color: #ffffff;
-    text-transform: uppercase;
-    border: 1px solid #fafafa;
-    border-radius: 10px;
-}
-
-/*------------------------------------------------------About Mauritius section*/
-
-/*------code for linear gradient taken from GeeksforGeeks to darken background for readability*/
-
-.bg-mauritius{       
-    min-height: 600px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/mainpage.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-}
-
-.mauritius-description p{
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 300;
-    
-} 
-/*------------------------------------------------------Contact us section*/
-
-
-.bg-colour-contact{
-    background: #f3efef;
-}
-
-.center-form{
-    width: 60%;
-    margin: 0 auto;
-}
-
-.center-form h2{
-    text-transform: uppercase;
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }

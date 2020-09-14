@@ -23,7 +23,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -43,58 +43,45 @@
 
     <!--Reason why to visit section-->
 
-    <section>
-        <h2 class="mt-3">Why Visit Us?</h2>
+    <section class="reasons">
+        <h2 class="mt-5" id="why-visit">Why Visit Us?</h2>
         <hr>
-        <div class="row mt-3 no-gutters">
-            <div class="col-md-4 shadow-lg reasons">
-                <div class="row no-gutters reasons-image">
-                    <div class="col-12">
-                        <img src="assets/images/climate.jpg"  alt="aerial view mauritius">
-                    </div>
+        <div class="row no-gutters m-3 row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col p-2">
+                <div class="card shadow-lg">
+                <img src="assets/images/climate.jpg" class="card-img-top" alt="aerial view of Mauritius" height="270">
+                <div class="card-body-reasons">
+                    <h2 class="card-title-reasons">Climate</h2>
+                    <p class="card-text">Subtropical climate creating a paradise island filled with natural scenery with beautiful weather through-out the whole year</p>
                 </div>
-                <div class="row no-gutters reason-text">
-                    <div class="col-12">
-                        <h2>CLIMATE</h2>
-                        <p>Subtropical climate creating a paradise island filled with natural scenery with beautiful weather through-out the whole year</p>
-                    </div>
-                </div>              
+                </div>
             </div>
-            <div class="col-md-4 shadow-lg reasons">
-                <div class="row no-gutters reasons-image">
-                    <div class="col-12">
-                        <img src="assets/images/multi.jpg"  alt="different coloured hands">
-                    </div>
+            <div class="col p-2">
+                <div class="card shadow-lg">
+                <img src="assets/images/multi.jpg" class="card-img-top" alt="different colour hands" height="270">
+                <div class="card-body-reasons">
+                    <h2 class="card-title-reasons">multiculturalism</h2>
+                    <p class="card-text">Mauritius has a sparkling culture unique to this planet originating from the blend of different ethnical origins</p>
                 </div>
-                <div class="row no-gutters reason-text">
-                    <div class="col-12">
-                        <h2>MULTICULTURALISM</h2>
-                        <p>Mauritius has a sparkling culture unique to this planet originating from the blend of different ethnical origins</p>
-                    </div>
-                </div>              
+                </div>
             </div>
-            <div class="col-md-4 shadow-lg reasons">
-                <div class="row no-gutters reasons-image">
-                    <div class="col-12">
-                        <img src="assets/images/eco-nature.jpg"  alt="natural scenery">
-                    </div>
+            <div class="col p-2">
+                <div class="card shadow-lg">
+                <img src="assets/images/eco-nature.jpg" class="card-img-top" alt="view of mauritius landscape" height="270">
+                <div class="card-body-reasons">
+                    <h2 class="card-title-reasons">eco tourism</h2>
+                    <p class="card-text">Mauritius promotes eco tourism. Come and discover the Island differently and contribute to sustainable tourism</p>
                 </div>
-                <div class="row no-gutters reason-text">
-                    <div class="col-12">
-                        <h2>ECO TOURISM</h2>
-                        <p>Mauritius promotes eco tourism. Come and discover the Island differently and contribute to sustainable tourism</p>
-                    </div>
-                </div>              
-            </div> 
-            <div class="mt-3 mb-5 col-12 d-flex justify-content-center discover"><a href="experiences.html" class="badge badge-info">Discover more here</a></div>         
-        </div>            
+                </div>
+            </div>
+        </div> 
+        <div class="m-4 d-flex justify-content-center discover"><a href="experiences.html" class="badge badge-info">Discover more here</a></div>       
     </section>
     <!--Footer section-->
     <footer>
         <div class="row no-gutters">
-            <div class="col-12 col-md-6 footer-download p-3">         
-                <h5>Want to become a resident?</h5>
-                <p>Download guidlines here     <a target="_blank" href="Guidelines.pdf"><i class="fas fa-download"></i></a></p>
+            <div class="col-12 col-md-6 footer-download">         
+                <h5>Want to become a resident?  <a target="_blank" href="assets/Guidelines.pdf"><i class="fas fa-download"></i></a></h5>                
             </div>
             <div class="col-12 col-md-6 footer-links d-flex justify-content-center">
                 <ul>
@@ -103,7 +90,10 @@
                     <li class="list-inline-item"><a target="_blank" href="https://twitter.com/mauritiusguide?lang=en"><i class="fab fa-twitter"></i></a></li>
                     <li class="list-inline-item"><a target="_blank" href="https://tourism.govmu.org/SitePages/Index.aspx"><i class="fas fa-link"></i></a></li>
                 </ul>
-            </div>            
+            </div> 
+            <div class="pl-3 mt-3 footer-copyright">   
+                <p>© Copyright 2020 Zahur Meerun. All rights reserved.</p>
+            </div>           
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
